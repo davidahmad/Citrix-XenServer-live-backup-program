@@ -1,0 +1,9 @@
+This program performs a live backup for all virtual machines on Xen Server with a single execution.
+This program was designed to save backups on an NFS or a local storage repository recognized by XenServer.
+This program has only been tested on XenServer version 6.2.
+Check your python version to make sure it's at least Python version 2.4.3. Any previous python versions are not guaranteed to run.
+You must open this program using a text editor in order to change the NFSPATH variable to a valid folder path, detailed instructions in comments.
+I am NOT responsible for any damage you do to your system or data with this program. YOU ARE ON YOUR OWN.
+
+
+If you have any questions, suggestions, or find any bugs then feel free to message me. I will reply as soon as I can.
