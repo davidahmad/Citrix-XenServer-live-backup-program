@@ -43,7 +43,7 @@ indexNum = 0
 for line in vmList.splitlines():
 
 	counter+=1
-	line.strip()
+	line = line.strip()
 	VMObject = VirtualMachine()	
 	#use counter mod 2 = 0 so that it only reads every other line.
 	if counter % 2 == 0:
