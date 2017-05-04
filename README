@@ -6,4 +6,10 @@ You must open this program using a text editor in order to change the NFSPATH va
 I am NOT responsible for any damage you do to your system or data with this program. YOU ARE ON YOUR OWN.
 
 
+SETUP:
+1.Download backupVM.py
+2.Open the file using a text editor set NFSPATH to a path to export your virtual machines in.
+3.Set backupVM.py to executable ( chmod +x backupVM.py )
+4.Run the program (./backupVM.py )
+
 If you have any questions, suggestions, or find any bugs then feel free to message me. I will reply as soon as I can.
