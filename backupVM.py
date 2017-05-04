@@ -83,7 +83,6 @@ for VirtualMachine in listofVM:
 	else: 
 		print("Something went wrong: \n")
 		print(systemvar)
-		sys.exit()
 	
 	print("Exporting " + VirtualMachine.name + " backup to file path")
 	#export backup into NFS
