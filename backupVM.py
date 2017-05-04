@@ -93,7 +93,6 @@ for VirtualMachine in listofVM:
 	else: 
 		print("Something went wrong: \n")
 		print(systemvar)
-		sys.exit()
 		
 	#delete snapshot
 	os.system("xe vm-uninstall uuid='%s' force=true" %snapshotUUID)
